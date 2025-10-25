@@ -1,4 +1,5 @@
 // index.ts
+
 var index_default = {
   async fetch(request, env, ctx) {
     let html_style = `body{padding:6em; font-family: sans-serif;} h1{color:#f6821f}`;
@@ -11,7 +12,7 @@ var index_default = {
     let html = `
     <!DOCTYPE html>
     <head>
-      <title>Geolocation: Weather</title>
+      <title>Geolocation: DemoCloudwatch</title>
     </head>
     <body>
       <style>${html_style}</style>
